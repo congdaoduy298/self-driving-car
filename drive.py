@@ -6,7 +6,7 @@ from PIL import Image
 from io import BytesIO
 import base64 
 import sys 
-from  data_augument import preprocess, INPUT_SHAPE
+from  data_augment import preprocess, INPUT_SHAPE
 import numpy as np 
 from keras.models import load_model
 import argparse 
